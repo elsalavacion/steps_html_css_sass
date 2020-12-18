@@ -1,0 +1,48 @@
+
+// footer
+
+.footer 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: -15px 0 25px darkgray;
+  padding: 25px;
+
+  // icons
+  &-social
+  {
+  
+      padding: 25px 10px;
+      span 
+      {
+        padding: 0 10px;
+        
+       a 
+       {
+          // hover 
+        &-hover 
+        {
+          opacity: 0.5;
+        }
+       }
+      }
+  }
+
+  // motto 
+  &-motto 
+  {
+    a
+    {
+      text-decoration: underline;
+
+      // hover 
+      &-hover 
+      {
+        color: darkgray;
+      }
+    }
+  }
+}

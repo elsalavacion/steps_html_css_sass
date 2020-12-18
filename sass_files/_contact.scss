@@ -1,0 +1,76 @@
+
+// CONTACT STYLING
+.contact 
+{
+  padding: 20px 25px 50px;
+
+  // heading
+  &-heading 
+  {
+    font-size: 40px;
+    font-family: $oswald;
+    text-align: center;
+  }
+
+  // motto
+  &-motto 
+  {
+    text-align: center;
+    font-size: 20px;
+    font-family: $lora;
+    padding: 20px 0;
+    margin: 2px;
+
+    span 
+    {
+      background: black;
+      color: white;
+      padding: 10px;
+    }
+  }
+  // underline
+  &-underline 
+  {
+    height: 5px;
+    background: black;
+    width: 150px;
+    margin: auto;
+  }
+
+  // form 
+  &-form 
+  {
+
+    width: 95vw;
+    margin: auto;
+
+    // input
+    input 
+    {
+      width: 95%;
+      margin: auto;
+      line-height: 40px;
+      border-color: lightgray;
+      box-shadow: none;
+      margin: 10px 0;
+      padding-left: 10px;
+      font-size: 18px;
+    }
+
+    // submit 
+    #submit 
+    {
+      padding: 10px 0;
+      font-size: 22px;
+      background: black;
+      color: white;
+      cursor: pointer;
+      // hover 
+      &:hover
+      {
+        background: lightgray;
+        color: black;
+      }
+    }
+  }
+}

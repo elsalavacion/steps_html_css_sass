@@ -1,0 +1,88 @@
+// mobile
+@media(max-width: 625px)
+{
+  // nav bar
+  .nav 
+  {
+
+    // menu
+    &-menu
+    {
+      display: none;
+    } 
+
+  }
+
+  // What we do
+  .wwd 
+  {
+    // heading 
+    &-heading 
+    {
+      font-size: 32px;
+    }
+
+    // motto
+    &-motto
+    {
+      font-size: 18px;
+    }
+
+
+    // gallery
+    &-gallery 
+    {
+      grid-template-columns: 1fr;
+
+      div 
+      {
+        height: 300px;
+      }
+    }
+  }
+
+  // about 
+  .about 
+  {
+    // heading 
+    &-heading{
+      font-size: 32px;
+    }
+
+    // motto
+    &-motto
+    {
+      font-size: 18px;
+    }
+    // gallery 
+    
+    &-gallery 
+    {
+      grid-template-columns: 1fr;
+
+      // item
+      &-item
+      {
+        &-btn 
+        {
+        padding: 10px 25px;
+        }
+      }
+    }
+  }
+
+  // contact
+  .contact 
+  {
+
+    // form 
+    &-form 
+    {
+      // input
+      input 
+      {
+        line-height: 30px;
+      }
+    }
+  }
+}

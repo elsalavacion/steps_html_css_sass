@@ -1,0 +1,101 @@
+// ABOUT
+
+.about 
+{
+  padding: 25px;
+  background: white;
+  // Heading
+  &-heading
+  {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 25px;
+
+    span 
+    {
+      background: black;
+      color: white;
+      padding: 5px;
+      margin: 2px;
+    }
+  }
+
+  // motto
+  &-motto 
+  {
+   padding-bottom: 20px;
+   font-size: 18px;
+
+   span 
+   {
+     background: black;
+     color: white;
+     padding: 5px 10px;
+   }
+  }
+
+  // gallery
+  &-gallery 
+  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: white;
+    // item 
+    &-item 
+    {
+      margin: 10px;
+
+      // image
+      img 
+      {
+        width: 100%;
+        height: 250px;
+
+        &:hover
+        {
+          opacity: 0.9;
+        }
+      }
+      // head 
+      &-head 
+      {
+        padding: 5px 10px;
+        font-family: $lora;
+      }
+
+      //position
+      &-position 
+      {
+        padding: 5px 10px;
+        color: darkgray;
+      }
+
+      // motto 
+      &-motto 
+      {
+        font-family: $roboto-slab;
+        padding: 5px 10px;
+
+      }
+
+      // btn 
+      &-btn 
+      {
+        background: black;
+        color: white;
+        padding: 15px 25px;
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        display: block;
+        margin: 15px 0;
+        // Hover
+        &:hover
+        {
+          background: lightgray;
+          color: black;
+        }
+      }
+    }
+  }
+}

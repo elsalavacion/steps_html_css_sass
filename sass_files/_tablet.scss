@@ -1,0 +1,65 @@
+@media(max-width: 995px)
+{
+    // nav bar
+    .nav 
+    {
+  
+      // menu
+      &-menu
+      {
+        ul 
+        {
+          li 
+          {
+            a 
+            {
+              padding: 0 5px;
+            }
+          }
+        }
+      } 
+  
+    }
+
+  // showcase
+  .showcase
+  {
+    height: 65vh;
+
+    &-overlay
+    {
+      &-content 
+      {
+          // motto
+      p, a
+      {
+      display: none;
+      }
+
+      }
+    }
+  }
+
+  // what we do
+  .wwd 
+  {
+    padding: 50px 25px;
+
+    // gallery
+    &-gallery 
+    {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  // about 
+  .about{
+    padding: 50px 25px;
+
+    // gallery 
+    &-gallery 
+    {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

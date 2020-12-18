@@ -1,0 +1,70 @@
+// Showcase
+
+.showcase
+{
+  height: 100vh;
+  width: 100vw;
+  background: url(../img/building.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  // overlay
+  &-overlay 
+  {
+    background: rgba($color: #000000, $alpha: 0.5);
+    color: white;
+    height: 100%;
+    width: 100%;
+
+    // content
+    &-content 
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+      width: 100%;
+
+      // heading
+      h1 
+      {
+        font-size: 42px;
+        padding: 20px 0;
+
+        // span
+        span{
+          background:#000000;
+          padding: 10px;
+          margin: 0 5px;
+        }
+      }
+
+      // paragraph
+      p
+      {
+        font-size: 22px;
+      }
+
+      // Button
+      a
+        {
+          text-decoration: none;
+          margin: 20px;
+          font-size: 22px;
+          padding: 10px 50px;
+          background: white;
+          color: black;
+
+          // Hover 
+          &:hover
+          {
+            background: black;
+            color: white;
+          }
+        }
+    }
+  }
+}

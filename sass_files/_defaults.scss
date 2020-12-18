@@ -1,0 +1,30 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html
+{
+  font-size: 10px;
+}
+
+body
+{
+  font-size: 1.6rem;
+  font-family: $lora;
+  overflow-x: hidden;
+}
+
+nav 
+{
+  font-size: 2.2rem;
+  font-family: $oswald;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
