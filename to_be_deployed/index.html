@@ -169,10 +169,11 @@
     <div class="contact-motto">
       Drop a message to <span>STE</span>PS
     </div>
-    <form class="contact-form">
-      <input type="text"  id="name" placeholder="Name">
-      <input type="email"  id="email" placeholder="Email">
-      <input type="text"  id="comment" placeholder="Comment">
+    <form class="contact-form" name="contact" method="POST" data-netlify-recaptcha="true"  data-netlify="true" >
+      <input type="text"  id="name" placeholder="Name" name="name">
+      <input type="email"  id="email" placeholder="Email" name="email">
+      <input type="text"  id="comment" placeholder="Comment" name="message">
+      <div data-netlify-recaptcha="true" style="margin: 15px 0;"></div>
       <input type="submit" id="submit" value="Send Message">
     </form>
   </section>
